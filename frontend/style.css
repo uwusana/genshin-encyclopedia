@@ -24,7 +24,7 @@ body {
   
   position: fixed;
   top: 30px;
-  left: 110px; /* Leaves space for your sidebar */
+  left: 110px; 
   right: 40px;
   height: 60px;
   display: flex;
@@ -32,7 +32,7 @@ body {
   justify-content: space-between;
   padding: 0 2rem;
 
-  background: rgba(255, 255, 255, 0.05); /* Transparent glass look */
+  background: rgba(255, 255, 255, 0.05); 
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius:  16px;
   backdrop-filter: blur(10px);
@@ -53,15 +53,15 @@ body {
   
   color: white;
   font-size: 20px;
-  font-family: 'Cinzel', serif; /* Optional: Genshin-like font */
+  font-family: 'Cinzel', serif; 
   letter-spacing: 1px;
   font-weight: 500;
 }
 
 #element-title {
   position: fixed;
-  margin-top: 0px; /* space below the fixed navbar */
-  margin-left: 50vw; /* optional: shift away from sidebar */
+  margin-top: 0px; 
+  margin-left: 50vw; 
   color: white;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
   font-family: 'Cinzel', serif;
@@ -112,9 +112,9 @@ main {
   margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; /* Distribute items evenly */
+  justify-content: space-evenly; 
   align-items: center;
-  height: 100%; /* Take full height of sidebar */
+  height: 100%; 
   width: 100%;
   flex-grow: 1;
 }
@@ -126,8 +126,8 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  flex: 1; /* Each item takes equal space */
-  min-height: 0; /* Allow shrinking if needed */
+  flex: 1; 
+  min-height: 0; 
 }
 
 .sidebar a {
@@ -141,10 +141,10 @@ main {
 }
 
 .sidebar ul li img {
-  width: 65%; /* responsive to sidebar */
+  width: 65%; 
   max-width: 45px;
   height: auto;
-  max-height: calc(100% - 4px); /* Ensure it doesn't exceed container */
+  max-height: calc(100% - 4px); 
   object-fit: contain;
   transition: transform 0.3s ease;
 }
@@ -165,7 +165,7 @@ main {
 
 
 
-/* Replace the character card styles in your style.css with these updated versions */
+
 
 .character-card {
   display: flex;
@@ -380,7 +380,7 @@ main {
   margin: 0.5rem 0;
 }
 
-/* Add these new styles to your existing style.css */
+
 
 .expanded {
   position: fixed;
